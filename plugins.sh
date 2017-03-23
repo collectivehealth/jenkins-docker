@@ -48,7 +48,7 @@ else
     exit 1
 fi
 
-JENKINS_PLUGINS_DIR=/var/jenkins_home/plugins
+JENKINS_PLUGINS_DIR=/var/lib/jenkins/plugins
 if [ -d "$JENKINS_PLUGINS_DIR" ]
 then
     echo "Analyzing: $JENKINS_PLUGINS_DIR"
